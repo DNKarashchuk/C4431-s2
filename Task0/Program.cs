@@ -17,10 +17,8 @@ else
 {
 result = digit2;
 }
-
 return result;
 }
-
 int number = new Random().Next(10, 100);
 System.Console.WriteLine($"Ваше случайное число: {number}");
 System.Console.WriteLine($"Максимальная цифра числа {number} равна {DigitComparison(number)}");
